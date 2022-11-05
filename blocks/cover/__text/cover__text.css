@@ -1,0 +1,7 @@
+.cover__text {
+  position: absolute;
+  text-align: center;
+  flex-direction: column;
+  z-index: 2;
+  margin: 245px 312px;
+}

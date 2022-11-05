@@ -1,0 +1,13 @@
+.place {
+  display: grid;
+  box-sizing: border-box;  
+  grid-template-columns: 460px 484px;
+  grid-template-rows: repeat(2, auto);
+  gap: 48px 40px;
+  max-width: 984px;
+  margin-bottom: 80px;
+}
+
+.place:last-of-type {
+    margin: 0
+}

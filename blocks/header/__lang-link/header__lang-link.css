@@ -6,6 +6,7 @@
     line-height: 28px;
     text-decoration: none;
     margin-right: 18px;
+    transition: background-color 1s, ease-in-out 0.5s;
 }
 
 .header__lang-link:last-of-type {
