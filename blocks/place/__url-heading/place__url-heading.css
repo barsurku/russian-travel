@@ -10,11 +10,11 @@
 
 @media screen and (max-width: 1024px) {
   .place__url-heading {
-    margin: 0 auto 12px 48px;
+    margin: 0 auto 12px 0;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 740px) {
   .place__url-heading {
     margin: 0 auto 12px 24px;
   }

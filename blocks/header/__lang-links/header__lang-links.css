@@ -1,7 +1,12 @@
 .header__lang-links {
   display: flex;
-  margin-right: 48px;
   align-items: end;
+}
+
+@media screen and (max-width: 1190px) {
+  .header__lang-links {
+    margin-right: 48px;
+  }
 }
 
 @media screen and (max-width: 768px) {

@@ -5,9 +5,9 @@
 
 @media screen and (max-width: 1024px) {
   .place__image {
-    max-width: 440px;
+    max-width: 415px;
     max-height: 440px;
-    margin: 0 auto 0 48px;
+    margin: 0 auto 0 24px;
   }
 }
 
@@ -19,24 +19,9 @@
   }
 }
 
-@media screen and (max-width: 600px) {
-  .place__image {
-    max-width: 320px;
-    max-height: 320px;
-    margin: 0 auto 0 24px;
-  }
-}
-
 @media screen and (max-width: 376px) {
   .place__image {
+    margin: 0;
     max-width: 320px;
-    max-height: 320px;
-    margin: 0 auto 0 16px;
-  }
-}
-
-@media screen and (max-width: 330px) {
-  .place__image {
-    margin: auto;
   }
 }

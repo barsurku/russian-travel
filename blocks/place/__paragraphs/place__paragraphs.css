@@ -6,11 +6,16 @@
 @media screen and (max-width: 1024px) {
     .place__paragraphs {
       max-width: 440px;
-      margin: 0 auto 0 48px;
+    }
+  }
+
+  @media screen and (max-width: 840px) {
+    .place__paragraphs {
+      max-width: 350px;
     }
   }
   
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 740px) {
     .place__paragraphs {
       max-width: 340px;
       font-size: 42px;
