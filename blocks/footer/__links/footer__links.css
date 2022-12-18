@@ -6,3 +6,22 @@
   margin: 0 0 24px 0;
   padding: 0;
 }
+
+@media screen and (max-width: 1400px) {
+  .footer__links {
+    margin-left: 48px;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .footer__links {
+    margin-left: 24px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .footer__links {
+    flex-direction: column;
+    margin-left: 16px;
+  }
+}

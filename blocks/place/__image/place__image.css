@@ -1,5 +1,42 @@
 .place__image {
-  max-width: 460px;
-  max-height: 460px;
+  width: 100%;
   margin: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .place__image {
+    max-width: 440px;
+    max-height: 440px;
+    margin: 0 auto 0 48px;
+  }
+}
+
+@media screen and (max-width: 940px) {
+  .place__image {
+    max-width: 340px;
+    max-height: 340px;
+    margin: 0 auto 0 24px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .place__image {
+    max-width: 320px;
+    max-height: 320px;
+    margin: 0 auto 0 24px;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .place__image {
+    max-width: 320px;
+    max-height: 320px;
+    margin: 0 auto 0 16px;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .place__image {
+    margin: auto;
+  }
 }

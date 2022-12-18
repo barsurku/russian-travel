@@ -9,3 +9,29 @@
   text-align: center;
   margin: 0 auto;
 }
+
+
+@media screen and (max-width: 707px) {
+  .lead__subtitle {
+    font-size: 23px;
+    line-height: 27px;
+    max-width: 400px;
+  }
+}
+
+@media screen and (max-width: 562px) {
+  .lead__subtitle {
+    font-size: 18px;
+    line-height: 22px;
+    max-width: 320px;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .lead__subtitle {
+    max-width: 288px;
+    max-height: 40px;
+    font-size: 16px;
+    line-height: 20px;
+  }
+}

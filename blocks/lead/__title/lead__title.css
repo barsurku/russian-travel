@@ -9,3 +9,46 @@
   max-height: 200px;
   margin: 56px auto 32px;
 }
+
+@media screen and (max-width: 1024px) {
+  .lead__title {
+  margin: 48px auto 32px;
+  }
+}
+
+@media screen and (max-width: 707px) {
+  .lead__title {
+    max-width: 600px;
+    max-height: 150px;
+    font-size: 77px;
+    line-height: 81px;
+  }
+}
+
+@media screen and (max-width: 562px) {
+  .lead__title {
+    max-width: 430px;
+    max-height: 169px;
+    font-size: 56px;
+    line-height: 60px;
+  }
+}
+
+@media screen and (max-width: 404px) {
+  .lead__title {
+    max-width: 370px;
+    max-height: 150px;
+    font-size: 50px;
+    line-height: 54px;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .lead__title {
+    margin: 48px auto 16px;
+    max-width: 288px;
+    max-height: 88px;
+    font-size: 40px;
+    line-height: 44px;
+  }
+}
