@@ -1,5 +1,5 @@
 .cover {
-  background-image: url(../../../images/cover-trains.jpg);
+  background-image: url(../../images/cover-trains.jpg);
   display: flex;
   max-width: 1184px;
   min-height: 740px;
@@ -9,6 +9,7 @@
   position: relative;
   justify-content: center;
   margin: 0 auto;
+  z-index: 4;
 }
 
 @media screen and (max-width: 1024px) {
